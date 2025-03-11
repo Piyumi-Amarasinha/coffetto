@@ -5,7 +5,7 @@ const ProcessStep = ({ number, image, description, isAbove }) => {
     <div className="flex flex-col items-center max-w-[250px]">
       {isAbove && (
         <p
-          className="text-white text-center mb-4 text-sm"
+          className="text-white text-center  text-sm"
           style={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: 400 }}
         >
           {description}
@@ -17,7 +17,7 @@ const ProcessStep = ({ number, image, description, isAbove }) => {
           <img
             src={image}
             alt={`Coffee Process Step ${number}`}
-            className="w-15 h-15 object-contain"
+            className="w-50 h-50 object-contain"
           />
         </div>
         <div className="absolute -top-2 -left-0 w-14 h-14 rounded-full bg-[#d4a74d] flex items-center justify-center text-[#4a2b23] font-bold text-xl border-4 border-[#4a2b23]">

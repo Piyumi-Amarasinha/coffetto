@@ -1,10 +1,10 @@
 import React from "react";
-import about from "../assets/about.png";
+import last from "../assets/last.png";
 
 const Section05 = () => {
   return (
     <div className="relative bg-white w-full min-h-screen flex justify-center items-start rounded-t-[50px] mt-[-50px] px-10">
-      <div className="w-full max-w-6xl flex flex-col md:flex-row items-center">
+      <div className="w-full flex flex-col md:flex-row items-center md:items-start">
         <div className="md:w-1/2 flex flex-col justify-center items-start text-left md:ml-10">
           <h2
             className="text-[#2E2624] text-4xl md:text-6xl leading-relaxed"
@@ -31,7 +31,7 @@ const Section05 = () => {
         <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
           <img
             className="w-[320px] md:w-[500px] max-w-full mt-2 rounded-lg"
-            src={about}
+            src={last}
             alt="coffee"
           />
         </div>

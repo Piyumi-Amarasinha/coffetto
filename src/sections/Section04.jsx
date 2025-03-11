@@ -1,25 +1,28 @@
 import React from "react";
 import ProcessStep from "../components/ProcessStep";
+import coffeebeans from "../assets/coffeebeans.png";
+import greencoffee from "../assets/greencoffee.png";
+import groundcoffee from "../assets/groundcoffee.png";
 
 const Section04 = () => {
   const processSteps = [
     {
       number: 1,
-      image: "../assets/coffeebeans.png",
+      image: coffeebeans,
       description:
         "Harvest occurs annually when the coffee beans reach maturity and are collected for processing.",
       isAbove: false,
     },
     {
       number: 2,
-      image: "../assets/greencoffee.png",
+      image: greencoffee,
       description:
         "The beans are dried using craft drying techniques focusing on the taste we want to deliver.",
       isAbove: true,
     },
     {
       number: 3,
-      image: "../assets/groundcoffee.png",
+      image: groundcoffee,
       description:
         "The coffee is roasted and ground, followed by processing the grain in mixers.",
       isAbove: false,
@@ -86,7 +89,7 @@ const Section04 = () => {
           />
         </svg>
 
-        <div className="w-full flex flex-col md:flex-raw justify-center items-start gap-12 md:gap-16 relative block md:hidden">
+        <div className="w-full flex flex-col md:flex-raw justify-center items-start gap-2 md:gap-16 relative block md:hidden">
           <div className="ml-50 md:ml-120">
             <ProcessStep {...processSteps[0]} />
           </div>
