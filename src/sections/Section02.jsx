@@ -5,10 +5,11 @@ import product3 from "../assets/product3.png";
 
 const Section02 = () => {
   return (
-    <div className="relative bg-gradient-to-b from-[#4a2b23] to-[#321b15] w-full md:min-h-screen min-h-[800px] flex justify-center items-start px-10 rounded-t-[50px] pb-20 mt-[-80px]">
+    <div className="relative bg-[#492d26] w-full md:min-h-screen min-h-[800px] flex justify-center items-start px-10 rounded-t-[50px] pb-20 mt-[-40px] pl-[160px] pr-[160px]">
       <div className="w-full max-w-[1200px] flex flex-col md:flex-row items-center md:items-start justify-between">
+        {/* text section */}
         <div className="md:w-1/2 flex flex-col items-start flex justify-center gap-4">
-          <div className="w-48 h-10 mt-2 flex items-center md:item-left justify-center rounded-full bg-[#321b15] px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 hover:bg-black">
+          <div className="w-48 h-10 mt-2 flex items-center md:item-left justify-center rounded-full bg-[#301a14] px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 hover:bg-black mb-10">
             Scroll Down
           </div>
           <p
@@ -20,8 +21,8 @@ const Section02 = () => {
             healthy working relationships <br /> built on trust and respect.
           </p>
         </div>
-
-        <div className="md:w-1/2 flex justify-center md:justify-end gap-6 mt-8 md:mt-0">
+        {/* image section */}
+        <div className="md:w-1/2 flex justify-center md:justify-end gap-[88px] mt-[166px] md:mt-0">
           <div className="flex flex-col items-center">
             <img
               className="w-[120px] md:w-[180px]"

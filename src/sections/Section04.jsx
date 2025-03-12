@@ -3,6 +3,7 @@ import ProcessStep from "../components/ProcessStep";
 import coffeebeans from "../assets/coffeebeans.png";
 import greencoffee from "../assets/greencoffee.png";
 import groundcoffee from "../assets/groundcoffee.png";
+import footerBg from "../assets/footerimg/bg-coffee.png";
 
 const Section04 = () => {
   const processSteps = [
@@ -30,10 +31,17 @@ const Section04 = () => {
   ];
 
   return (
-    <div className="relative bg-[#4a2b23] w-full md:min-h-screen min-h-[1000px] flex justify-center items-center rounded-t-[50px] mt-[-300px] py-16">
+    <div
+      className="relative bg-[#492d26]  w-full md:min-h-screen min-h-[1000px] flex justify-center items-center rounded-t-[50px] mt-[-150px] py-16"
+      style={{
+        backgroundImage: `url(${footerBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="w-full max-w-[1200px] flex flex-col items-center px-4">
         <h2
-          className="text-white text-2xl md:text-6xl text-center mb-16"
+          className="text-white text-2xl md:text-6xl text-center mb-16 pl-[258px] pr-[258px]"
           style={{
             fontFamily: "Pacifico, cursive",
             fontWeight: 400,

@@ -4,8 +4,9 @@ import home from "../assets/home.png";
 
 const Section01 = () => {
   return (
-    <div className="relative border-b bg-gradient-to-b from-[#4a2b23] to-[#321b15] w-screen md:min-h-screen min-h-[900px] flex justify-center items-center px-10">
-      <div className="w-screen max-w-[1200px] flex flex-col md:flex-row items-center gap-2 md:gap-0">
+    <div className="relative border-b bg-gradient-to-b from-[#4a2b23] to-[#321b15] w-full md:min-h-screen min-h-[900px] flex justify-center items-center px-10 pl-[185px] pr-[185px]">
+      <div className="w-screen max-w-[1200px] flex flex-col md:flex-row items-center gap-2 md:gap-0 gap-[72px] mt-10">
+        {/* image section */}
         <div className="order-2 md:order-1 md:w-1/2 flex justify-center">
           <img
             className="w-[320px] md:w-[500px] max-w-full"
@@ -14,15 +15,16 @@ const Section01 = () => {
           />
         </div>
 
+        {/* text section */}
         <div
-          className="order-1 md:order-2 md:w-1/2 text-center md:text-left flex flex-col justify-center"
+          className="order-1 md:order-2 md:w-1/2 text-center md:text-left flex flex-col justify-center md:pt-[246]"
           style={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: 500 }}
         >
-          <h5 className="text-[#d4a74d] uppercase tracking-widest">
+          <h5 className="text-[#d4a74d] uppercase tracking-widest mb-3">
             Exceptional Quality
           </h5>
           <h2
-            className="text-white text-4xl md:text-6xl font-bold italic my-4 mb-6"
+            className="text-white text-4xl md:text-6xl font-bold italic my-4 mb-4"
             style={{ fontFamily: "Pacifico, cursive", fontWeight: 400 }}
           >
             It's time for a <br className="hidden md:block" /> good coffee
@@ -33,7 +35,7 @@ const Section01 = () => {
             />
           </h2>
           <p
-            className="text-white text-lg leading-relaxed mt-4"
+            className="text-white text-lg leading-relaxed mb-12"
             style={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: 400 }}
           >
             Each select coffee bean reflects our commitment{" "}

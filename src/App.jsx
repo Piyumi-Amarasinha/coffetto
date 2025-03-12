@@ -1,3 +1,4 @@
+import Footer from "./sections/Footer";
 import Navbar from "./sections/Navbar";
 import Section01 from "./sections/Section01";
 import Section02 from "./sections/Section02";
@@ -18,6 +19,7 @@ const App = () => {
         <Section03 />
         <Section04 />
         <Section05 />
+        <Footer />
       </div>
     </div>
   );
