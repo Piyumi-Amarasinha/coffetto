@@ -2,6 +2,11 @@
 
 Coffetto is a sleek and interactive coffee shop website built with modern web technologies, offering a seamless user experience across all devices. The project is designed to be responsive, engaging, and visually appealing, ensuring a smooth browsing experience for coffee lovers.  
 
+Here’s my Portfolio Demo:
+
+
+![My - Portfolio](https://github.com/Piyumi-Amarasinha/my_todo/blob/0e77c232fced83209921f6f6e123c5a2a2e8751a/My-Todo-demo.jpg)
+
 ## 🚀 Technologies Used  
 
 ### 1️⃣ React ⚛️  
