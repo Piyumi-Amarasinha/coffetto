@@ -5,7 +5,7 @@ Coffetto is a sleek and interactive coffee shop website built with modern web te
 Here’s my Portfolio Demo:
 
 
-![Coffetto](https://github.com/Piyumi-Amarasinha/coffetto/blob/67ec06129465aa0e90cb916c831a825c4ac97930/Coffetto-demo.png)
+![Coffetto](https://github.com/Piyumi-Amarasinha/coffetto/blob/d570fc9da8f14eaa7da109844d13470e981021ca/Coffetto-demo.png)
 
 ## 🚀 Technologies Used  
 
